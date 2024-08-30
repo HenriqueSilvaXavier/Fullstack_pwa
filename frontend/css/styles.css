@@ -54,3 +54,10 @@ li button {
     background-color: #dc3545;
     margin-left: 10px;
 }
+
+#releaseDate{
+    width: 100%
+}
+#dateContainer{
+    display: inline-flex
+}
