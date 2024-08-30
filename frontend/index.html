@@ -14,7 +14,10 @@
         <form id="serieForm">
             <input type="text" id="title" placeholder="Título" required>
             <textarea id="description" placeholder="Descrição" required></textarea>
-            <input type="date" id="releaseDate" placeholder="Data de lançamento" required>
+            <div id="dateContainer">
+            <label for="releaseDate" id="dateLabel">Data de lançamento:</label>
+            <input type="date" id="releaseDate" required>
+            </div>
             <input type="text" id="author" placeholder="Autor" required>
             <input type="text" id="genre" placeholder="Genêro">
             <button type="submit">Enviar Série</button>
